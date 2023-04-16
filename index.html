@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
@@ -420,15 +420,21 @@
         <div class="third-footer-section">
           <p class="footer-subscribe-title">Subscribe</p>
           <form action="" class="subscribe-form">
-          <label class="subscribe-label">
-            <input type="email" name="subscribe-email" class="footer-input"placeholder="E-mail">
-          </label>
-          <button class="subscribe-button" type="subscribe">Subscribe
-            <svg class="send-icon" width="24" height="24">
-              <use href="./images/icons.svg.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+            <label class="subscribe-label">
+              <input
+                type="email"
+                name="subscribe-email"
+                class="footer-input"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-button" type="subscribe">
+              Subscribe
+              <svg class="send-icon" width="24" height="24">
+                <use href="./images/icons.svg.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -441,7 +447,6 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-
           <label class="name-label">
             <span>Name</span>
             <span class="input-wrap">
@@ -486,8 +491,8 @@
             <span>Comment</span>
             <span class="input-wrap">
               <textarea
-                name=""
-                id=""
+                name="area-label"
+                id="area-label"
                 class="modal-textarea"
                 placeholder="Text input"
               ></textarea>
@@ -513,7 +518,6 @@
               >Privacy Policy</a
             ></label
           >
-
           <button class="submit-button" type="submit">Send</button>
         </form>
       </div>
